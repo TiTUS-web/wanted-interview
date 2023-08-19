@@ -11,8 +11,8 @@
 </template>
 
 <script>
-import ContentBlock from './components/ContentBlock.vue';
-import Footer from './components/Footer.vue';
+import ContentBlock from '@/views/ContentBlock.vue';
+import Footer from '@/ui/Footer.vue';
 
 export default {
   name: 'App',
@@ -32,9 +32,5 @@ export default {
       return attrs
     },
   },
-
-  data: () => ({
-    //
-  }),
 };
 </script>
